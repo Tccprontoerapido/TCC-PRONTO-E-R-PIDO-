@@ -33,12 +33,20 @@ header {
 .whatsapp-icon {
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 10px;
+    text-align: center;
 }
 
 .whatsapp-logo {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp-text {
+    color: #25D366; /* Cor verde do WhatsApp */
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
 }
 
 .background-container {
