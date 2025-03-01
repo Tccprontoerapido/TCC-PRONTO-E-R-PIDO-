@@ -43,11 +43,12 @@ header {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    background-color: yellow;
+    color: lightblue;
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .company-name {
@@ -167,7 +168,7 @@ footer {
     }
 
     .service-grid {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 10px;
     }
 
