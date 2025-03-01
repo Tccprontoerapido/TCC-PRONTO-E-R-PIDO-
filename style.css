@@ -27,9 +27,27 @@ header {
     align-items: center;
 }
 
-.logo {
+.logo-wrapper {
+    position: relative;
     max-width: 100%;
+}
+
+.logo {
+    width: 100%;
     display: block;
+    border-radius: 8px;
+}
+
+.logo-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 .company-name {
@@ -37,7 +55,6 @@ header {
     font-size: 2em;
     margin-top: 10px;
     text-align: center;
-    white-space: nowrap;
 }
 
 .no-plagiarism {
