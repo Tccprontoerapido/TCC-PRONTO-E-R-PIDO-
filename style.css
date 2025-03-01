@@ -29,7 +29,7 @@ header {
 
 .logo-wrapper {
     position: relative;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .logo {
@@ -156,6 +156,10 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .logo-wrapper {
+        max-width: 100%;
+    }
+
     .company-name {
         font-size: 20px;
     }
@@ -180,11 +184,5 @@ footer {
 
     .service p {
         font-size: 12px;
-    }
-}
-
-@media (min-width: 601px) {
-    .logo {
-        max-width: 50%; /* Reduzir o tamanho da logo em notebooks e desktops */
     }
 }
