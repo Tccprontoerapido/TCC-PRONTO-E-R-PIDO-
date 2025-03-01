@@ -19,6 +19,15 @@ header {
     background-color: #2c3e50;
     text-align: center;
     padding: 40px 0;
+    position: relative;
+}
+
+.contact-number {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 1em;
 }
 
 .background-container {
@@ -34,7 +43,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://i.imgur.com/sJZSpQN.jpeg');
+    background-image: url('https://i.imgur.com/xlpN4bI.jpeg');
     background-size: cover;
     background-position: center;
     opacity: 0.3;
@@ -65,7 +74,7 @@ header {
 .logo-text, .company-name {
     position: absolute;
     color: white;
-    font-size: 2em;
+    font-family: 'Cinzel', serif; /* Fonte estilosa e profissional */
     text-align: center;
 }
 
@@ -80,6 +89,7 @@ header {
 }
 
 .company-name {
+    font-size: 2.5em;
     top: 50%;
 }
 
