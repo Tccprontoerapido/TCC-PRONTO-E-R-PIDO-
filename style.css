@@ -30,6 +30,17 @@ header {
     font-size: 1em;
 }
 
+.whatsapp-icon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.whatsapp-logo {
+    width: 40px;
+    height: 40px;
+}
+
 .background-container {
     position: relative;
     width: 100%;
@@ -63,6 +74,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 20px; /* Ajusta a posição vertical da logo */
 }
 
 .logo {
