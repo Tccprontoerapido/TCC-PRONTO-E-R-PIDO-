@@ -39,12 +39,9 @@ header {
 }
 
 .logo-text {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: yellow;
-    color: lightblue;
+    margin-top: 10px;
+    background-color: #ffeb3b; /* Cor amarela da logo */
+    color: #2196f3; /* Cor azul da logo */
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 1.5em;
@@ -183,5 +180,11 @@ footer {
 
     .service p {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) {
+    .logo {
+        max-width: 50%; /* Reduzir o tamanho da logo em notebooks e desktops */
     }
 }
