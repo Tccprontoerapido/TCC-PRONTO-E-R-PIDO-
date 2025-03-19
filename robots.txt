@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tccprontoerapido.com.br/sitemap.xml
